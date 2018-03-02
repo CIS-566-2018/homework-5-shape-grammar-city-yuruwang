@@ -5,6 +5,7 @@ Author: Yuru Wang
 
 Finish Time: 3/1/2018
 
+-------------------------------------------------------------------------------------------------------------------------------------
 
 Terrain:
 
@@ -18,7 +19,7 @@ Repeat the same operation above to mark central island blocks where building ari
 
 Call corresponding functions for sea block and building block to build the city.
 
-
+------------------------------------------------------------------------------------------------------------------------------------
 
 
 Garmmer rules:
@@ -36,14 +37,14 @@ rule 4 : add pyramid-shape roof on top of current shape. The roof scale is depen
 rule 5: add rings to the geometry along y axis. The number of rings is dependent on parent symbol's height. New generated shapes are invalid to be passed to next round of iteration. This rule is only available for parent shapes whose position are within a large radius range from terrain center
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------------
 
 Coloration:
 
 The coloration of building is based on building's position on the terrain. Buildings are colored using gray scale values whose overall intensity are based on the distance between its position and terrain center. In addition, there are some offsets on the grayscale's intensity based on noise. For buildings with large height, they are colored using red
 
 
-
+-------------------------------------------------------------------------------------------------------------------------------------
 
 Screenshots:
 
